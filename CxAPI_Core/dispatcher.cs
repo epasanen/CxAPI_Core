@@ -13,6 +13,8 @@ namespace CxAPI_Core
             resultClass token = Configuration.mono_command_args();
             if (token.status != 0) { return token; }
             secure secure = new secure(token);
+            _options.debug = token.debug;
+            _options.level = token.verbosity;
 
             switch (token.api_action)
             {

@@ -16,7 +16,7 @@ namespace CxAPI_Core
             string CxUrl = secure_token.post_rest_Uri(CxConstant.CxToken);
             var nvc = new List<KeyValuePair<string, string>>();
             nvc.Add(new KeyValuePair<string, string>("username", token.user_name));
-            nvc.Add(new KeyValuePair<string, string>("credential", token.credential));
+            nvc.Add(new KeyValuePair<string, string>("password", token.credential));
             nvc.Add(new KeyValuePair<string, string>("grant_type", token.grant_type));
             nvc.Add(new KeyValuePair<string, string>("scope", token.scope));
             nvc.Add(new KeyValuePair<string, string>("client_id", token.client_id));

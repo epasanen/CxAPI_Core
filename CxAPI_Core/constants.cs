@@ -14,5 +14,11 @@ namespace CxAPI_Core
         public const string CxReportFetch = "/cxrestapi/reports/sastScan/{0}";
         public const string CxReportStatus = "/cxrestapi/reports/sastScan/{0}/status";
         public const string CxScanStatistics = "/cxrestapi/sast/scans/{0}/resultsStatistics";
-}
+    }
+    static class _options
+    {
+        public static bool debug;
+        public static int level;
+    }
+
 }

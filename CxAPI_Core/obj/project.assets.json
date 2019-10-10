@@ -4201,11 +4201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\epasanen\\source\\repos\\CxApi\\CxAPI_Core\\CxAPI_Core.csproj",
+      "projectUniqueName": "C:\\github\\CxCore\\CxAPI_Core\\CxAPI_Core.csproj",
       "projectName": "CxAPI_Core",
-      "projectPath": "C:\\Users\\epasanen\\source\\repos\\CxApi\\CxAPI_Core\\CxAPI_Core.csproj",
+      "projectPath": "C:\\github\\CxCore\\CxAPI_Core\\CxAPI_Core.csproj",
       "packagesPath": "C:\\Users\\epasanen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\epasanen\\source\\repos\\CxApi\\CxAPI_Core\\obj\\",
+      "outputPath": "C:\\github\\CxCore\\CxAPI_Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

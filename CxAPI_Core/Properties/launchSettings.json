@@ -2,7 +2,7 @@
   "profiles": {
     "CxAPI_Core": {
       "commandName": "Project",
-      "commandLineArgs": "--scan_results --report_name=REST_REPORT_1 --start_time=2017-01-01 --end_time=2019-09-30 --pipe --debug"
+      "commandLineArgs": "--scan_results --report_name=REST_REPORT_1 --start_time 2018-01-01 --end-time 2019-09-30 --debug"
     }
   }
 }

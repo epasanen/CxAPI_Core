@@ -42,6 +42,7 @@ namespace CxAPI_Core
         public bool pipe { get; set; }
         public string os_path { get; set; }
         public bool debug { get; set; }
+        public int verbosity{ get; set; }
         public string report_name { get; set; }
 
         List<ProjectObject> projectClass { get; set; }

@@ -11,7 +11,6 @@ namespace CxAPI_Core
     {
         public static IConfigurationRoot _configuration;
         public static string[] _keys;
-        public static int verbosity = 0;
 
 
         public static IConfigurationRoot configuration(string[] args)
@@ -68,7 +67,7 @@ namespace CxAPI_Core
                 { "et|end_time=", "Last scan end time",
                   v => token.end_time = DateTime.Parse(v) },
                 { "v|verbose", "Change degrees of debugging info",
-                  v => verbosity++ },
+                  v => token.verbosity++ },
                 { "d|debug", "Output debugging info ",
                   v => token.debug = true },
                 { "?|h|help",  "show you your options",

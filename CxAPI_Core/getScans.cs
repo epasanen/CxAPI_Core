@@ -21,6 +21,10 @@ namespace CxAPI_Core
                 sclass = JsonConvert.DeserializeObject<List<ScanObject>>(token.op_result);
 
             }
+            else {
+
+                throw new MissingFieldException("Failure to get scan results. Please check token validity and try again");
+            }
             return sclass;
         }
 
