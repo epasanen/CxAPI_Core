@@ -1,5 +1,5 @@
 Go into the new directory and open appsettings.json in a test editor. You will see the following:
-
+```javascript
 { "Logging": { "LogLevel": { "Default": "Warning" } },
  "CxRest":
 	 { "CxUrl": "http://192.168.250.4",
@@ -19,6 +19,7 @@ Go into the new directory and open appsettings.json in a test editor. You will s
 		 "token": "cxrestapi/auth/identity/connect/token"
 	 }
 }
+```
 Change the CxUrl settings to point at your CxManager server. Set the CxFilePath to where you want to save your results. Set this to “.\” to use your current directory. Save this file.
 
 Then open a cmd window and type “cxAPI_Core”:
