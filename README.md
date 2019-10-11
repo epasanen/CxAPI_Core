@@ -27,7 +27,7 @@ Then open a cmd window and type “cxAPI_Core”:
 C:\Users\epasanen>cxAPI_core With no arguments, or with the -? Or /? argument, you can see all your options below:
 
 Usage: CxApi action arguments
-
+```
 Options:
  -t, --get_token Fetch the bearer token from the CxSAST service 
  -c, --store_credentials Store username and password in an encrypted file 
@@ -43,17 +43,23 @@ Options:
  -v, --verbose Change degrees of debugging info 
  -d, --debug Output debugging info 
  -?, -h, --help show you your options
-
+```
 You will want to save your credentials first. Enter: cxAPI_Core –save_credentials –user_name=”Cxuser” –password=”Cxpassword”
 
 Your credentials will be encrypted and saved on your system. You can now run the the –scan_results action without including the credentials in your scripts.
 
 cxAPI_Core –get_token will create and store a token for CxREST services.
 
-scAPI_Core –scan_results –start_time=”06/21/2019 0:0:0” will fetch projects that the last scan date is later than the start time used. Use to get the current days scan summary. scAPI_Core –scan_results” –start_time=”01/01/2019 0:0:0 –end_time=”06/01/2019 0:0:0 will fetch projects that the last scan date is later than the start time used. The end time argument will filter out any projects with scan dates later than that date. cxAPI_Core –scan_results –project_name=”CxProject” will filter for projects containing part of this name. So using “Web” will return all projects containing that substring.
+scAPI_Core –scan_results –start_time=”06/21/2019 0:0:0” will fetch projects that the last scan date is later than the start time used.
+Use to get the current days scan summary.
+
+scAPI_Core –scan_results” –start_time=”01/01/2019 0:0:0 –end_time=”06/01/2019 0:0:0 will fetch projects that the last scan date is later than the start time used. The end time argument will filter out any projects with scan dates later than that date.
+
+cxAPI_Core –scan_results –project_name=”CxProject” will filter for projects containing part of this name. So using “Web” will return all projects containing that substring.
 
 Other flags
-
+```
 --pipe turns off file creation and sends output to stdout. 
 --debug puts error info in the console or log file.
 --file_path and –file_name will override the settings in appsettings.json
+```
