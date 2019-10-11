@@ -20,8 +20,8 @@ Go into the new directory and open appsettings.json in a test editor. You will s
     "client_secret": "014DF517-39D1-4453-B7B3-9930C563627C",
     "debug":  "false"
   }
-  
-}```
+}
+```
 Change the CxUrl settings to point at your CxManager server. Set the CxFilePath to where you want to save your results. Set this to “.\” to use your current directory. Save this file.
 
 Then open a cmd window and type “cxAPI_Core”:
