@@ -11,3 +11,16 @@ C:\Users\epasanen\source\repos\CxApi\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_
 C:\Users\epasanen\source\repos\CxApi\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.AssemblyInfo.cs
 C:\Users\epasanen\source\repos\CxApi\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.dll
 C:\Users\epasanen\source\repos\CxApi\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.pdb
+C:\github\CxCore\CxAPI_Core\bin\Release\netcoreapp2.1\CsvHelper.cs
+C:\github\CxCore\CxAPI_Core\bin\Release\netcoreapp2.1\appsettings.json
+C:\github\CxCore\CxAPI_Core\bin\Release\netcoreapp2.1\CxAPI_Core.deps.json
+C:\github\CxCore\CxAPI_Core\bin\Release\netcoreapp2.1\CxAPI_Core.runtimeconfig.json
+C:\github\CxCore\CxAPI_Core\bin\Release\netcoreapp2.1\CxAPI_Core.runtimeconfig.dev.json
+C:\github\CxCore\CxAPI_Core\bin\Release\netcoreapp2.1\CxAPI_Core.dll
+C:\github\CxCore\CxAPI_Core\bin\Release\netcoreapp2.1\CxAPI_Core.pdb
+C:\github\CxCore\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.csprojAssemblyReference.cache
+C:\github\CxCore\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.csproj.CoreCompileInputs.cache
+C:\github\CxCore\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.AssemblyInfoInputs.cache
+C:\github\CxCore\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.AssemblyInfo.cs
+C:\github\CxCore\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.dll
+C:\github\CxCore\CxAPI_Core\obj\Release\netcoreapp2.1\CxAPI_Core.pdb

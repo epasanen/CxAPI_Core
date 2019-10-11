@@ -27,7 +27,10 @@ namespace CxAPI_Core
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    Console.WriteLine("Token created and stored");
+                    if (token.debug)
+                    {
+                        Console.WriteLine("Token created and stored");
+                    }
                     var jsonstring = response.Content.ReadAsStringAsync().Result;
                     resultToken json_response = JsonConvert.DeserializeObject<resultToken>(jsonstring);
                     token.bearer_token = json_response.access_token;

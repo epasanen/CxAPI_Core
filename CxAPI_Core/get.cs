@@ -24,7 +24,10 @@ namespace CxAPI_Core
                 {
                     if (response.IsSuccessStatusCode)
                     {
-                        Console.WriteLine("Results found");
+                        if (token.debug)
+                        {
+                            Console.WriteLine("Results found");
+                        }
                         token.op_result = response.Content.ReadAsStringAsync().Result;
                    
                         token.status = 0;
@@ -64,7 +67,10 @@ namespace CxAPI_Core
                 {
                     if (result.IsSuccessStatusCode)
                     {
-                        Console.WriteLine("Results found");
+                        if (token.debug)
+                        {
+                            Console.WriteLine("Results found");
+                        }
                         token.op_result = result.Content.ReadAsStringAsync().Result;
                         token.status = 0;
                         return true;
